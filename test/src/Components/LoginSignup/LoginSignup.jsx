@@ -20,16 +20,16 @@ const LoginSignup = () => {
       </div>
       <div className="inputs">
         {action==="Login"?<div> </div>:<div className="input">
-          <img src={user_icon} style={{ width: "20px", height: "20px" }} alt="" />
+          <img src={user_icon} className="icon" alt="" />
           <input type="text" placeholder='Name' />
         </div> }
         
         <div className="input">
-          <img src={email_icon} style={{ width: "20px", height: "20px" }} alt="" />
+        <img src={email_icon} className="icon" alt="" />
           <input type="email" placeholder='Email' />
         </div> 
         <div className="input">
-          <img src={password_icon} style={{ width: "20px", height: "20px" }} alt="" />
+        <img src={password_icon} className="icon" alt="" />
           <input type="password" placeholder='Password'/>
         </div>  
       </div>
